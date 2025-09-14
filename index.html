@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heleni Gratia - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Heleni Gratia</h1>
+            <!-- Hamburger Toggle -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#experiences" class="nav-item">Experiences</a></li>
+                <li><a href="#achievements" class="nav-item">Achievements</a></li>
+                <li><a href="#skills" class="nav-item">Skills</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="./images/profile.jpeg" alt="Profile picture of Heleni Gratia">
+            </div>
+            <div class="hero-content">
+                <h2>Hello, I'm</h2>
+                <h1>Heleni Gratia</h1>
+                <p><span class="highlight">Informatics Student</span>, lifelong learner.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-hero-container">
+            <h3>
+                A little bit about <span class="highlight">who I am</span> and what I do
+            </h3>
+            <p>
+                I am a third-year Informatics Engineering student at ITB with a strong passion for technology and
+                innovation.
+                Driven by the rapid evolution of technology and its career prospects, I aim to become a web developer or
+                data scientist, leveraging technical expertise and problem-solving skills.
+            </p>
+            <p>
+                Actively engaged in student organizations, I have honed my teamwork and collaboration skills.
+                I continuously upskill through online courses in data analysis and hands-on academic projects,
+                enhancing both my technical proficiency and communication abilities.
+            </p>
+            <p class="resume-link">
+                Interested in learning more about my experience?
+                <a href="https://drive.google.com/file/d/1iLWM8u8mbyLI0t2ZV2bkULzgNgvqjsPy/view" target="_blank">View My
+                    Resume</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="projects-container">
+            <h2 class="projects-title">
+                <span class="highlight-orange">Turning ideas</span> into reality, one project at a time
+            </h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <a href="https://toeplay.netlify.app/" target="_blank">
+                        <img src="./images/tictactoe.png" alt="TicTacToe Game" class="project-image">
+                        <div class="project-content">
+                            <h3>TicTacToe Game</h3>
+                            <p>A classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript.</p>
+                            <p> Features responsive design, smooth gameplay, and intuitive user interface.</p>
+                            <div class="tools">
+                                <img src="./images/html-logo.png" alt="HTML">
+                                <img src="./images/css-logo.png" alt="CSS">
+                                <img src="./images/js-logo.png" alt="JavaScript">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Investify3 -->
+                <article class="project-card">
+                    <a href="https://github.com/mineraleee/hackathon-web3-investify3" target="_blank">
+                        <img src="./images/investify3.png" alt="Investify3" class="project-image">
+                        <div class="project-content">
+                            <h3>Investify3</h3>
+                            <p>A secure Web3 investment platform for stocks, crypto, bonds, and more.</p>
+                            <p>Implements Next.js and Motoko with Tailwind CSS for responsive UI and seamless blockchain
+                                integration.</p>
+                            <div class="tools">
+                                <img src="./images/tailwind-logoo.png" alt="Tailwind CSS">
+                                <img src="./images/nextjs-logoo.png" alt="Next.js">
+                                <img src="./images/ts-logo.png" alt="TypeScript">
+                                <img src="./images/motoko-logo.png" alt="Motoko">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- NeuroFund -->
+                <article class="project-card">
+                    <a href="https://github.com/mineraleee/Hackathon-Codefest_NeuroFund" target="_blank">
+                        <img src="./images/neurofund.png" alt="NeuroFund" class="project-image">
+                        <div class="project-content">
+                            <h3>NeuroFund</h3>
+                            <p>A decentralized Web3 platform to fund and invest in research projects.</p>
+                            <p>Built with Next.js, Motoko, and Tailwind CSS, focusing on transparency and security in
+                                funding.</p>
+                            <div class="tools">
+                                <img src="./images/tailwind-logoo.png" alt="Tailwind CSS">
+                                <img src="./images/nextjs-logoo.png" alt="Next.js">
+                                <img src="./images/ts-logo.png" alt="TypeScript">
+                                <img src="./images/motoko-logo.png" alt="Motoko">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Puzzle Rush Hour -->
+                <article class="project-card">
+                    <a href="https://github.com/mineraleee/Tucil3_13523091_13523107" target="_blank">
+                        <img src="./images/puzzlerushsolver.png" alt="Puzzle Rush Hour" class="project-image">
+                        <div class="project-content">
+                            <h3>Puzzle Rush Hour</h3>
+                            <p>An AI-powered solver for the Rush Hour puzzle game.</p>
+                            <p>Implements multiple search algorithms (UCS, GBFS, A*, Beam Search) with both CLI and
+                                JavaFX-based GUI.</p>
+                            <div class="tools">
+                                <img src="./images/java-logo.png" alt="Java">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Image-Audio Processing -->
+                <article class="project-card">
+                    <a href="https://github.com/mineraleee/Algeo02-23073" target="_blank">
+                        <img src="./images/project3.png" alt="Image-Audio Processing" class="project-image">
+                        <div class="project-content">
+                            <h3>Image-Audio Processing</h3>
+                            <p>A web-based tool for comparing and analyzing similarities in images and audio files.</p>
+                            <p>Includes mathematical algorithms and visualization for media similarity detection.</p>
+                            <div class="tools">
+                                <img src="./images/html-logo.png" alt="HTML">
+                                <img src="./images/python-logo.png" alt="Python">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- PlayShelf -->
+                <article class="project-card">
+                    <a href="https://play-shelf.vercel.app" target="_blank">
+                        <img src="./images/playshelf.png" alt="PlayShelf" class="project-image">
+                        <div class="project-content">
+                            <h3>PlayShelf</h3>
+                            <p>A modern media gallery web application developed as part of Project Sistech 2025.</p>
+                            <p>Supports media organization, browsing, and interactive features with a clean, responsive
+                                UI.</p>
+                            <div class="tools">
+                                <img src="./images/mongodb-logo.svg" alt="MongoDB">
+                                <img src="./images/tailwind-logoo.png" alt="Tailwind CSS">
+                                <img src="./images/nextjs-logoo.png" alt="Next.js">
+                                <img src="./images/ts-logo.png" alt="TypeScript">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- KAT -->
+                <article class="project-card">
+                    <a href="https://oskm.katitb.com/" target="_blank">
+                        <img src="./images/KAT.png" alt="KAT" class="project-image">
+                        <div class="project-content">
+                            <h3>OSKM KAT ITB 2025</h3>
+                            <p>A web platform for ITB freshmen 2025, providing thousands of students with task
+                                submission, event updates, leaderboard, and other essential features in a responsive
+                                interface.</p>
+                            <div class="tools">
+                                <img src="./images/tailwind-logoo.png" alt="Tailwind CSS">
+                                <img src="./images/ts-logo.png" alt="TypeScript">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- CareerPath -->
+                <article class="project-card">
+                    <a href="career-path-sistech.vercel.app/" target="_blank">
+                        <img src="./images/careerpath.png" alt="CareerPath" class="project-image">
+                        <div class="project-content">
+                            <h3>CareerPath</h3>
+                            <p>A web app that helps users discover suitable careers through assessment or get a learning
+                                roadmap for a chosen path. Outputs include career recommendations and relevant courses.
+                                Built as the final project for the Sistech event.</p>
+                            <div class="tools">
+                                <img src="./images/tailwind-logoo.png" alt="Tailwind CSS">
+                                <img src="./images/ts-logo.png" alt="TypeScript">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- PantauSiKecil -->
+                <article class="project-card">
+                    <a href="career-path-sistech.vercel.app/" target="_blank">
+                        <img src="./images/PantauSiKecil.png" alt="PantauSiKecil" class="project-image">
+                        <div class="project-content">
+                            <h3>PantauSiKecil</h3>
+                            <p>PantauSiKecil is an AI-powered mobile application designed to support pregnant mothers
+                                with personalized reminders, nutrition and activity recommendations, a 24/7 medical
+                                chatbot, and an emergency button connected to healthcare services and family.</p>
+                            <div class="tools">
+                                <img src="./images/python-logo.png" alt="Tailwind CSS">
+                                <img src="./images/ts-logo.png" alt="TypeScript">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!-- Other Projects -->
+                <article class="project-card other-project-card" id="other-projects">
+                    <a href="https://github.com/mineraleee" target="_blank">
+                        <div class="project-content">
+                            <h3>Other Projects</h3>
+                            <p>
+                                Explore more of my work on GitHub, including personal projects,
+                                hackathon submissions, and academic assignments.
+                            </p>
+                            <div class="tools">
+                                <img src="./images/github-logoo.png" alt="GitHub">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="experiences">
+        <h2>Some places where <span>I’ve made an impact</span></h2>
+        <div class="experience">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>STEI ITB</h3>
+                <p class="role">Assistant Laboratory – Software Engineering | 2025</p>
+                <p class="desc">
+                    Assisted students in understanding and applying software engineering concepts through guidance
+                    in coursework, practical exercises, and academic consultations, fostering both technical proficiency
+                    and problem-solving skills.
+                </p>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>KAT ITB 2025</h3>
+                <p class="role">Information Staff | 2025</p>
+                <p class="desc">
+                    Contributed to the frontend development of the Diklat Terpusat website, which has reached 97.5K
+                    page views and 3.53K visitors, focusing on responsive design and seamless user experience.
+                </p>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>Himpunan Mahasiswa Informatika (HMIF) ITB</h3>
+                <p class="role">Welfare Staff | 2025</p>
+                <p class="desc">
+                    Worked as part of a team to ensure the well-being of organization members, focusing on non-academic
+                    aspects such as mental health, social support, and overall member engagement. Organized support
+                    programs to foster a positive and inclusive environment.
+                </p>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>The Sandbox 2.0 by IEEE ITB SB</h3>
+                <p class="role">Vice Secretary | 2024</p>
+                <p class="desc">
+                    Managed official documentation, including permission letters, invitations, and other administrative
+                    tasks, to ensure smooth event execution. Assisted in coordinating communications between
+                    stakeholders
+                    and maintaining accurate records.
+                </p>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>Kelompok Studi Ekonomi dan Pasar Modal (KSEP) ITB</h3>
+                <p class="role">External Relationship Staff | 2024</p>
+                <p class="desc">
+                    Developed and maintained relationships with external parties, including companies, to support
+                    organizational initiatives. Collaborated with a team to coordinate and execute a community service
+                    project, where we taught financial literacy to 50 underprivileged children, ensuring meaningful
+                    impact and engagement.
+                </p>
+            </div>
+        </div>
+        <div class="experience">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>Character Development Training (CDT) ITB</h3>
+                <p class="role">Trainer | 2024</p>
+                <p class="desc">
+                    Led training sessions for 40 new students, covering technical concepts and AIR values (Adaptability,
+                    Integrity, Humility). Mentored students, fostering collaboration and personal growth through
+                    interactive
+                    workshops. Enhanced public speaking, leadership, and coaching skills in a supportive learning
+                    environment.
+                </p>
+            </div>
+        </div>
+
+        <div class="experience">
+            <div class="dot"></div>
+            <div class="content">
+                <h3>Computational Thinking Assistant</h3>
+                <p class="role">Teaching Assistant | 2024</p>
+                <p class="desc">
+                    Supervised and evaluated students’ work in programming practicums using Python.
+                    Provided guidance, feedback, and academic support to ensure understanding of core computational
+                    thinking concepts.
+                    Strengthened skills in mentoring, assessment, and effective communication within an educational
+                    environment.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="achievements">
+        <h2><span>Celebrating achievements </span> that shaped my journey</h2>
+        <div class="achievement">
+            <h3>Second Runner-Up – Hackathon Gunadarma 2025</h3>
+            <p class="project"><strong>Project:</strong> PantauSiKecil</p>
+            <p class="desc">
+                A mobile AI-powered application designed to support pregnant women through smart and comprehensive
+                assistance.
+                Features include consultation reminders, personalized nutrition and physical activity recommendations,
+                24/7 medical chatbot, and an emergency button connected to healthcare facilities and family members.
+            </p>
+        </div>
+
+        <div class="achievement">
+            <h3>3rd Place – UI/UX Competition SECOMP 2025</h3>
+            <p class="project"><strong>Project:</strong> Panganku</p>
+            <p class="desc">
+                A mobile solution empowering households to manage food consumption more efficiently while encouraging
+                sustainable living practices through improved awareness and resource utilization.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Leveraging the <span>best tools</span> to shape the future</h2>
+        <div class="skills-grid">
+            <div class="skill"><img src="./images/html-logo.png" alt="HTML"></div>
+            <div class="skill"><img src="./images/css-logo.png" alt="CSS"></div>
+            <div class="skill"><img src="./images/js-logo.png" alt="JavaScript"></div>
+            <div class="skill"><img src="./images/ts-logo.png" alt="TypeScript"></div>
+            <div class="skill"><img src="./images/react-logo.png" alt="React"></div>
+            <div class="skill"><img src="./images/nextjs-logoo.png" alt="Next.js"></div>
+            <div class="skill"><img src="./images/tailwind-logoo.png" alt="Tailwind"></div>
+            <div class="skill"><img src="./images/nodejs-logo.png" alt="Node.js"></div>
+            <div class="skill"><img src="./images/fastapi-logo.png" alt="FastAPI"></div>
+            <div class="skill"><img src="./images/mysql-logo.png" alt="MySQL"></div>
+            <div class="skill"><img src="./images/mongodb-logo.svg" alt="MongoDB"></div>
+            <div class="skill"><img src="./images/vercel-logo.png" alt="Vercel"></div>
+            <div class="skill"><img src="./images/netlify-logo.png" alt="Netlify"></div>
+            <div class="skill"><img src="./images/electron-logo.png" alt="Electron"></div>
+            <div class="skill"><img src="./images/tensorflow-logo.png" alt="TensorFlow"></div>
+            <div class="skill"><img src="./images/pandas-logo.png" alt="Pandas"></div>
+            <div class="skill"><img src="./images/numpy-logo.png" alt="NumPy"></div>
+            <div class="skill"><img src="./images/scikit-logo.png" alt="Scikit-learn"></div>
+            <div class="skill"><img src="./images/motoko-logo.png" alt="Motoko"></div>
+            <div class="skill"><img src="./images/python-logo.png" alt="Python"></div>
+            <div class="skill"><img src="./images/java-logo.png" alt="Java"></div>
+            <div class="skill"><img src="./images/cpp-logo.png" alt="C++"></div>
+            <div class="skill"><img src="./images/c-logo.png" alt="C"></div>
+            <div class="skill"><img src="./images/github-logoo.png" alt="GitHub"></div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-links">
+            <a href="mailto:helenigratia@gmail.com" target="_blank" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/heleni-gratia" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/helenitamz23" target="_blank" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://github.com/mineraleee" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </section>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <footer id="footer">
+        <p>&copy; 2025 <span>Heleni Gratia</span>. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
